@@ -10,12 +10,23 @@
     <title>Virtua Frontend Internship Test</title>
   </head>
   <body>
+      
     <section class="main">
       <button id="show-popup-form" class="btn btn-main">Click me!</button>
       <!-- Display success message below -->
     </section>
     <div class="popup">
-      <!-- Here goes your popup form HTML code -->
+      <div id="popupbox"> 
+        <form name="login" action="" method="post">
+        Username:
+        <input name="username" size="14" />
+        Password:
+        <input name="password" type="password" size="14" />
+        <input type="submit" name="submit" value="login" />
+        </form>
+        <br />
+        <a id="close-button">close</a>
+        </div> 
     </div>
     <script src="js/index.js" charset="utf-8"></script>
   </body>
