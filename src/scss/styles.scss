@@ -2,6 +2,49 @@
 
 @import 'layout/main';
 #popupbox {
+    i {
+        position: absolute;
+        right: -3px;
+        top: -3px;
+    }
+    label {
+        font-size: 12px;
+    }
+    h2 {
+        font-family: 'Lobster', cursive;
+        text-align: center;
+    }
+    input {
+        width: 100%;
+        border: 1px solid #939393;
+        
+        &[type=text],
+        &[type=password] {
+            height: 30px;
+            margin-bottom: 5px;
+            padding-left: 10%;
+        }
+        &[type=checkbox] {
+            //maybe if you raise the wages xD           
+        }
+        &[type=submit] {
+            color:white;
+            background-color: black;
+            height: 30px;
+            margin-bottom: 5px;
+            padding-left: 10%;
+            margin-top: 5px;
+        }
+        
+    }
+    form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .popup-content {
+        padding: 10%;
+    }
     width: 20%;
     position: fixed;
     left: 40%;
