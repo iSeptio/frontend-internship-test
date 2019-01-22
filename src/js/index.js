@@ -1,6 +1,7 @@
 
 function loginbarSwitch(show) { document.getElementById('popupbox').style.visibility = show ? "visible" : "hidden"; }
 
-document.getElementById("show-popup-form").onclick = () => loginbarSwitch(1)
+function onClick(selector, fn) { document.querySelector(selector).onclick = fn; }
 
-/* Here goes your JS code */
+onClick("#show-popup-form", () => loginbarSwitch(1))
+onClick("#close-button", () => loginbarSwitch(0))
