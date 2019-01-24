@@ -35,6 +35,10 @@
             background-color: black;
             height: 30px;
             margin-top: 5px;
+            &:hover{
+                background-color: #fd878e;
+                border: none;
+            }
         }
     }
     form {
