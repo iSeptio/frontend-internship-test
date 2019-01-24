@@ -10,9 +10,11 @@ Recruitment test for frontend internship. Good luck! :)
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/get-npm)
 - [Gulp](https://gulpjs.org/getting-started.html)
+- [python2](https://www.python.org/download/releases/2.7.3/)
 
+## Installation 
+``` $env:path="$env:Path;C:\Python27"```
 
-## Installation
 Bring up a terminal, then go to your project root directory and install local dependencies:
 
 ```npm install```
