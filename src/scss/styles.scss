@@ -9,6 +9,8 @@
     }
     label {
         font-size: 12px;
+        display: inline-block;
+        vertical-align: middle;
     }
     h2 {
         font-family: 'Lobster', cursive;
@@ -17,25 +19,23 @@
     input {
         width: 100%;
         border: 1px solid #939393;
-        
         &[type=text],
         &[type=password] {
             height: 30px;
             margin-bottom: 5px;
             padding-left: 10%;
+            width: 90%;
         }
         &[type=checkbox] {
-            //maybe if you raise the wages xD           
+            vertical-align: middle;
+            width:20px;
         }
         &[type=submit] {
-            color:white;
+            color: white;
             background-color: black;
             height: 30px;
-            margin-bottom: 5px;
-            padding-left: 10%;
             margin-top: 5px;
         }
-        
     }
     form {
         align-items: center;
